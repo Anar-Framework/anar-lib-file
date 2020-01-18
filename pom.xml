@@ -8,7 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>af.gov.anar.lib.file</groupId>
+	<groupId>af.gov.anar.lib</groupId>
 	<artifactId>anar-lib-file</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>anar-lib-file</name>
@@ -30,9 +30,8 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>${commons-io.version}</version>
+			<version>2.6</version>
 		</dependency>
-
 
 
 		<!--		Lombok-->
